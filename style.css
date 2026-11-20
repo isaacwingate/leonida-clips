@@ -1,0 +1,8 @@
+:root{--bg:#0f0b1a;--fg:#f3eefc;--muted:#b9aed3;--accent:#ff4fa3}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px}
+h1{font-size:32px;margin:0 0 8px;background:linear-gradient(90deg,#ff4fa3,#ffb347);-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:20px;margin-top:28px}
+a{color:var(--accent)} p,li{color:var(--fg)} .muted{color:var(--muted);font-size:14px}
+img.logo{width:96px;height:96px;border-radius:50%;display:block;margin-bottom:16px}
+nav{margin-top:32px;font-size:14px} nav a{margin-right:16px}
